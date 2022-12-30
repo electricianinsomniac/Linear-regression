@@ -51,14 +51,15 @@ Can you use the data to help you identify which cities may potentially give your
     # Get the total cost as the sum divided by (2*m)
     total_cost = (1 / (2 * m)) * cost_sum
     ### END CODE HERE ### 
-    ```
+ ```
     
-    Here is the full section for exercise1 
-    ```
+    - Here is the full section for exercise1 
+    
+ ```
         ### START CODE HERE ### 
     for i in range(m):
         f_wb_i=np.dot(x[i],w)+b
         total_cost=total_cost+(f_wb_i-y[i])**2
     total_cost= total_cost /(2*m)  
     ### END CODE HERE ### 
-    ```
+```
