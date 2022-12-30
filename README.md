@@ -2,7 +2,7 @@
  implement linear regression with one variable to predict profits for a restaurant franchise.
  
  ## Background 
- This repository is created to complete the assignment: C1_W2_Linear_Regression
+ This repository is created to complete the assignment: [C1_W2_Linear_Regression](C1_W2_Linear_Regression.ipynb)
  
  ## Introduction
  Practice Lab: Linear Regression
