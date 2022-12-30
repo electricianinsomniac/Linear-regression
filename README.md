@@ -86,13 +86,14 @@ Can you use the data to help you identify which cities may potentially give your
     # Divide both dj_dw and dj_db by m
     dj_dw = dj_dw / m
     dj_db = dj_db / m
-### END CODE HERE ### 
+    ### END CODE HERE ### 
 ```
 
     - Here is the full answer section for exercise2
     
     
 ```
+    ### START CODE HERE ###
     for i in range(m): 
         f_wb = w * x[i] + b
         dj_dw_i = (f_wb - y[i]) * x[i]
@@ -101,5 +102,6 @@ Can you use the data to help you identify which cities may potentially give your
         dj_dw += dj_dw_i
     dj_dw = dj_dw / m
     dj_db = dj_db / m
+    ### END CODE HERE ### 
     
 ````
