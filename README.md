@@ -14,11 +14,11 @@ First, let's run the cell below to import all the packages that you will need du
 - matplotlib is a famous library to plot graphs in Python.
 - utils.py contains helper functions for this assignment. You do not need to modify code in this file.
 
-'''
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from utils import *
 import copy
 import math
 %matplotlib inline
-'''
+```
