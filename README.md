@@ -4,6 +4,8 @@
  ## Background 
  This repository is created to complete the assignment: [C1_W2_Linear_Regression](C1_W2_Linear_Regression.ipynb)
  
+ ![image](https://user-images.githubusercontent.com/110273737/212011832-98010378-675c-4105-a53e-28098421d925.png)
+ 
  ## Introduction
  Practice Lab: Linear Regression
 
