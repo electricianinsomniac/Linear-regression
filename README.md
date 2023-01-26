@@ -24,7 +24,7 @@ The objective of linear regression is to minimize the sum of the squared differe
 
 Once the line is determined, it can be used to make predictions about the dependent variable for new values of the independent variable. Linear regression assumes that the relationship between the independent variable and the dependent variable is linear, and that the residuals (the differences between the predicted values and the actual values) are normally distributed and have constant variance.
 
-# Packages
+### Packages
 First, let's run the cell below to import all the packages that you will need during this assignment.
 
 - numpy is the fundamental package for working with matrices in Python.
@@ -40,7 +40,7 @@ import math
 %matplotlib inline
 ```
 
-# Problem Statement
+### Problem Statement
 Suppose you are the CEO of a restaurant franchise and are considering different cities for opening a new outlet.
 - You would like to expand your business to cities that may give your restaurant higher profits.
 - The chain already has restaurants in various cities and you have data for profits and populations from the cities.
@@ -49,7 +49,7 @@ Suppose you are the CEO of a restaurant franchise and are considering different 
  
 Can you use the data to help you identify which cities may potentially give your business higher profits?
 
-# exercise1
+## exercise1
 ```
 ### START CODE HERE ###  
     # Variable to keep track of sum of cost from each example
@@ -80,7 +80,7 @@ Can you use the data to help you identify which cities may potentially give your
     total_cost= total_cost /(2*m)  
     ### END CODE HERE ### 
 ```
-# exercise2
+## exercise2
 ```
 ### START CODE HERE ### 
     # Loop over examples
