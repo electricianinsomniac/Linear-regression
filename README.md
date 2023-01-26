@@ -2,12 +2,17 @@
  implement linear regression with one variable to predict profits for a restaurant franchise.
  
  ## Background 
- This repository is created to complete the assignment: [C1_W2_Linear_Regression](C1_W2_Linear_Regression.ipynb)
  
- ![image](https://user-images.githubusercontent.com/110273737/212011832-98010378-675c-4105-a53e-28098421d925.png)
+ Linear regression is a statistical method used to model the relationship between a dependent variable (also known as the outcome or response variable) and one or more independent variables (also known as predictors or explanatory variables). The goal of linear regression is to find the best-fitting line through a set of data points. The line is represented by an equation of the form Y = a + bX, where Y is the dependent variable, X is the independent variable, a is the y-intercept (the point where the line crosses the y-axis), and b is the slope of the line (the change in Y for a unit change in X). Linear regression can be used for both simple linear regression (one independent variable) and multiple linear regression (more than one independent variable).
+ 
+
  
  ## Introduction
  Practice Lab: Linear Regression
+ 
+  This repository is created to complete the assignment: [C1_W2_Linear_Regression](C1_W2_Linear_Regression.ipynb)
+ 
+ ![image](https://user-images.githubusercontent.com/110273737/212011832-98010378-675c-4105-a53e-28098421d925.png)
 
 # Packages
 First, let's run the cell below to import all the packages that you will need during this assignment.
