@@ -5,14 +5,24 @@
  
  Linear regression is a statistical method used to model the relationship between a dependent variable (also known as the outcome or response variable) and one or more independent variables (also known as predictors or explanatory variables). The goal of linear regression is to find the best-fitting line through a set of data points. The line is represented by an equation of the form Y = a + bX, where Y is the dependent variable, X is the independent variable, a is the y-intercept (the point where the line crosses the y-axis), and b is the slope of the line (the change in Y for a unit change in X). Linear regression can be used for both simple linear regression (one independent variable) and multiple linear regression (more than one independent variable).
  
-
- 
- ## Introduction
+  ## Introduction
  Practice Lab: Linear Regression
  
   This repository is created to complete the assignment: [C1_W2_Linear_Regression](C1_W2_Linear_Regression.ipynb)
  
  ![image](https://user-images.githubusercontent.com/110273737/212011832-98010378-675c-4105-a53e-28098421d925.png)
+ 
+### How Linear Regression Work 
+
+Linear regression works by finding the line that best fits the data points. The line is represented by the equation Y = a + bX, where Y is the dependent variable, X is the independent variable, a is the y-intercept, and b is the slope of the line.
+
+The slope of the line represents the relationship between the independent variable and the dependent variable. If the slope is positive, it means that as the independent variable increases, the dependent variable also increases. If the slope is negative, it means that as the independent variable increases, the dependent variable decreases.
+
+The y-intercept represents the point at which the line crosses the y-axis. It represents the value of the dependent variable when the independent variable is zero.
+
+The objective of linear regression is to minimize the sum of the squared differences between the predicted values of the dependent variable (obtained from the equation) and the actual values of the dependent variable. This process is called "Ordinary Least Squares" (OLS) method, it finds the line that minimizes the sum of the squared differences between the predicted values and the actual values.
+
+Once the line is determined, it can be used to make predictions about the dependent variable for new values of the independent variable. Linear regression assumes that the relationship between the independent variable and the dependent variable is linear, and that the residuals (the differences between the predicted values and the actual values) are normally distributed and have constant variance.
 
 # Packages
 First, let's run the cell below to import all the packages that you will need during this assignment.
